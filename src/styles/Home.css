@@ -1,0 +1,28 @@
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+    margin-left : 5%;
+    margin-right : 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    border-style : 5px solid black;
+    float : left;
+}
+.center{
+    text-align: center;
+}
+
+.card-title {
+    padding : 1em;
+}
+img {
+    width: 16em;
+    height :12em;
+    padding :1em;
+}
+
+.card-content {
+    padding: 2px 16px;
+}

@@ -1,0 +1,42 @@
+$main-bg: #dfe6e9;
+$purple: #5D9CEC;
+$deep-purple: darken($purple, 10%);
+$light-green: #55efc4;
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: $main-bg;
+}
+ul {
+	margin: 0;
+	padding: 1em;
+	li {
+		list-style: none;
+		.link {
+			padding: 1em;
+			color: white;
+			text-decoration: none;
+			&:hover {
+				background-color: $light-green;
+				color: $deep-purple;
+			}
+			.contact {
+				border: 1px solid white;
+			}
+		}
+	}
+}
+
+.nav {
+	display: flex;
+	background: linear-gradient(to bottom right, $purple, #967ADC);
+	color: white;
+	.slam-left {
+		margin-right: auto;
+	}
+}
+
+
